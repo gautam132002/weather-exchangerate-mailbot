@@ -49,7 +49,7 @@ def get_financial_data(BASE):
 
         payload = {}
         headers= {
-        "apikey": "Y1E5Vi5ZgQT7dYVErG67CM5mpewTjfGw"
+        "apikey": "APILAYER_API_KEY"
         }
 
         response = requests.request("GET", url, headers=headers, data = payload)
