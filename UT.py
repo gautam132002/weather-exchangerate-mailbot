@@ -11,9 +11,9 @@ from program import is_valid_email
 import program
 
 OPENWEATHERMAP_ENDPOINT = "https://api.openweathermap.org/data/2.5/weather"
-OPENWEATHERMAP_API_KEY = "4b0a9096534179f10a0ac5255a8d218b"
-GMAIL_ADDRESS = "demoscript2002@gmail.com"
-GMAIL_PASSWORD = "wzogippwniqeglid"
+OPENWEATHERMAP_API_KEY = "openweather_api_key"
+GMAIL_ADDRESS = "your_gamil"
+GMAIL_PASSWORD = "gmail_password"
 
 class TestIsValidEmail(unittest.TestCase):
     def test_valid_email(self):
